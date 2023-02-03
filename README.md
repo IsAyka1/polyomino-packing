@@ -15,7 +15,14 @@ source venv/bin/activate
 ```commandline
 python search.py
 ```
-### Input example
+### Input
+* **by shell** 
+1. in search.py:
+```commandline
+by_shell = True
+```
+2. input example
+
 `Input NxM:` 4 4
 
 `Input count of different rectangular polyominos:` 1
@@ -28,9 +35,21 @@ python search.py
 
 `Input П-polyominos (height, weight, count):` 2 3 1
 
+* **by code** 
+1. in search.py 
+```commandline
+by_shell = False
+```
+2. in input.py
+```commandline
+(N, M) = (4, 6)
+rec_polyominos = [((2, 2), 2)]
+arc_polyominos = [((3, 4), 1), ((2, 3), 1)]
+```
+
 ### Result example
 
-`Result: ` True
+`Result:` True
 
 
 ## Testing

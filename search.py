@@ -161,6 +161,7 @@ def search(d: tuple[int, int], rec_polyominos: list[T_poly], arc_polyominos: lis
     return False
 
 
-by_shell = False
-answer = search(*input_value(by_shell))
-print('Result:', answer)
+if __name__ == '__main__':
+    by_shell = True
+    answer = search(*input_value(by_shell))
+    print('Result:', answer)

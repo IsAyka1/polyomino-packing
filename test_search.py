@@ -12,6 +12,7 @@ class SearchCase:
     arc: list[T_poly]
     expected: bool
 
+
 TEST_CASES = [
     SearchCase(
         D=(4, 6),
