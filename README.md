@@ -1,12 +1,6 @@
 # polyomino-packing
 `polyominos` `packing` `matrix`
 
-## Asymptotic complexity about
-n*m - dimentions of matrix,
-k - count of all polyominos
-
-* time - O( (n*m)! )
-* space - O( max(n*m, k!) ) 
 
 ## How to execute
 ```commandline
@@ -58,4 +52,11 @@ arc_polyominos = [((3, 4), 1), ((2, 3), 1)]
 ```commandline
 pytest
 ```
+
+## Asymptotic complexity is about
+n*m - dimentions of matrix,
+k - count of all polyominos
+
+* time - O( (n*m)! )
+* space - O( max(n*m, k!) ) 
 
